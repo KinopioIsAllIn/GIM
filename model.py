@@ -419,7 +419,11 @@ class CO2(torch.nn.Module):
 
             positive_micro_indices = pseudo_label[:, 2] > 0.5
 
-            reward_loss = - 0.4 * attention[i, :video_mask[i], 0][positive_macro_indices].mean() - 0.6 * attention[i, :video_mask[i], 0][positive_micro_indices].mean()
+            reward_loss = 0.0
+            if len(torch.nonzero(positive_micro_indices, as_tuple=False)) > 0:
+                reward_loss -= 0.6 * attention[i, :video_mask[i], 0][positive_micro_indices].mean()
+            if len(torch.nonzero(positive_macro_indices, as_tuple=False)) > 0:
+                reward_loss -= 0.4 * attention[i, :video_mask[i], 0][positive_macro_indices].mean()
 
             milloss += attention_loss + 0.1 * smooth_loss + reward_loss
 
