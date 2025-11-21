@@ -6,9 +6,13 @@ Official Pytorch Implementation of 'Gaussian-Based Instance-Adaptive Intensity M
 
 Even though the SpotFormer has not been accepted yet, we decide to release the source code.
 
-However, the current version has not been organized well, we will continue to organize it.
+However, the current version is chaos, we will continue to organize it.
 
 This is an improved version from the conference version.
+
+Feature: [google drive](https://drive.google.com/file/d/1suimo6F15CKTQTFpx_jmwu5WRMJyt9Ht/view?usp=sharing, https://drive.google.com/file/d/1utXkaNfs6lVBu9raRrB9npH2xl-912aD/view?usp=sharing)
+After downloading, move them to the ```dataset/```
+
 
 ## Train
 ``` bash
