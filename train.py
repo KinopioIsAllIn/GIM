@@ -26,7 +26,8 @@ def train(itr, dataset, args, spotformer, model, optimizer, logger, device):
         optimizer.zero_grad()
         total_loss.backward()
         optimizer.step()
-
+        
+        total_loss = torch.nan_to_num(total_loss.detach(), nan=0.0)
         total_loss1 += total_loss.data.cpu().numpy()
         bn += 1
     return total_loss1 / bn
