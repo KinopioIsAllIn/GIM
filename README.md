@@ -4,15 +4,16 @@
 
 Official Pytorch Implementation of 'Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting' (ICLR2025)
 
-Even though the SpotFormer has not been accepted yet, we decide to release the source code.
+Although SpotFormer has not been officially accepted yet, we have decided to release the source code.
 
-However, the current version is chaos, we will continue to organize it.
+The current version is still somewhat disorganized, and we will continue to clean it up.
 
-This is an improved version from the conference version.
+This is an improved version compared with the conference submission.
 
 Feature: [CAS(ME)^2 google drive](https://drive.google.com/file/d/1suimo6F15CKTQTFpx_jmwu5WRMJyt9Ht/view?usp=sharing)
 [SAMM-LV google drive](https://drive.google.com/file/d/1utXkaNfs6lVBu9raRrB9npH2xl-912aD/view?usp=sharing)
-After downloading, move them to the ```dataset/```
+
+After downloading the files, move them into the ```dataset/``` directory.
 
 
 ## Train
