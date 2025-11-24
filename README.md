@@ -8,7 +8,7 @@ Although SpotFormer has not been officially accepted yet, we have decided to rel
 
 The current version is still somewhat disorganized, and we will continue to clean it up.
 
-This is an improved version compared with the conference submission.
+This is an improved version compared with the conference submission. [arxiv](https://arxiv.org/abs/2511.16952)
 
 ## Data preparation
 Feature: [CAS(ME)^2 google drive](https://drive.google.com/file/d/1suimo6F15CKTQTFpx_jmwu5WRMJyt9Ht/view?usp=sharing)
@@ -36,6 +36,13 @@ python -W ignore validation_only.py --dataset-name CASME2 --path-dataset dataset
   title={Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting},
   author={Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
   booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+
+@article{denggaussianjournal,
+  title={Point-Supervised Facial Expression Spotting with Gaussian-Based Instance-Adaptive Intensity Modeling},
+  author={Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
+  journal={arXiv preprint arXiv:2511.16952},
   year={2025}
 }
 
