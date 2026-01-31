@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Official Pytorch Implementation of 'Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting' (ICLR2025)
+Official Pytorch Implementation of 'Gaussian-Based Instance-Adaptive Intensity Modeling for Point-Supervised Facial Expression Spotting' (ICLR2025 + TBIOM)
 
 Although SpotFormer has not been officially accepted yet, we have decided to release the source code.
 
@@ -39,11 +39,12 @@ python -W ignore validation_only.py --dataset-name CASME2 --path-dataset dataset
   year={2025}
 }
 
-@article{denggaussianjournal,
+@article{deng2026point,
   title={Point-Supervised Facial Expression Spotting with Gaussian-Based Instance-Adaptive Intensity Modeling},
   author={Deng, Yicheng and Hayashi, Hideaki and Nagahara, Hajime},
-  journal={arXiv preprint arXiv:2511.16952},
-  year={2025}
+  journal={IEEE Transactions on Biometrics, Behavior, and Identity Science},
+  year={2026},
+  publisher={IEEE}
 }
 
 @article{deng2024spotformer,
